@@ -1,21 +1,19 @@
-# Personal Portfolio Website
+# Task 5 - GitHub Pages Deployment
 
-## Description
+## Objective
+Deploy a static website using GitHub Pages.
 
-This is my personal portfolio website created using HTML and CSS.
+## Tools Used
+- GitHub
+- HTML
+- CSS
+- JavaScript
 
-## Features
+## Steps Performed
+1. Created a GitHub repository.
+2. Uploaded website files.
+3. Enabled GitHub Pages.
+4. Deployed the website successfully.
 
-* Home Section
-* About Section
-* Contact Section
-* Responsive Design
-
-## Technologies Used
-
-* HTML
-* CSS
-
-## Author
-
-Anthati Ruthika
+## Live Website
+https://ruthikaanthati-del.github.io/Ruthika.github.io/
