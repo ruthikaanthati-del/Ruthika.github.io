@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+    background:#222;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+}
+.hero{
+display: flex;
+justify-content: space-around;
+align-items: center;
+padding: 30px 50px;
+margin-bottom: 20px;
+}
+
+.hero-text h1{
+font-size: 48px;
+margin-bottom: 15px;
+}
+
+.hero-text p{
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.about{
+padding: 20px 50px;
+text-align: center;
+}
+
+.about h2{
+margin-bottom: 15px;
+font-size: 32px;
+}
+
+.about p{
+max-width: 700px;
+margin: 0 auto;
+line-height: 1.6;
+font-size: 18px;
+}
+
+
+button{
+    padding:12px 25px;
+    border:none;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+}
+.hero-image img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+}
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+}
+
+footer a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+}
+@media(max-width:768px){
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    header{
+        flex-direction:column;
+    }
+
+    nav{
+        margin-top:15px;
+    }
+
+    .hero-text h1{
+        font-size:36px;
+    }
+
+    .hero-image img{
+        width:220px;
+        height:220px;
+        margin-top:20px;
+    }
+}
